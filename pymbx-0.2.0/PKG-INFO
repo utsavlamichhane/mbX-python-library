@@ -1,0 +1,64 @@
+Metadata-Version: 2.2
+Name: pymbX
+Version: 0.2.0
+Summary: A Python library for downstream pipeline of 16s rRNA sequence data.
+Author: Utsav Lamichhane
+Author-email: utsav.lamichhane@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pymbX
+
+**pymbX** is a Python library designed to simplify the cleaning, processing, and visualization of microbiome and metadata files. It provides a comprehensive suite of functions to handle various data manipulations, ensuring your data is ready for downstream analysis and publication-quality visualization.
+
+## Key Features
+
+- **File Validation:**  
+  Supports common file formats including CSV, XLS, XLSX, and TXT.
+
+- **Data Cleaning & Transformation:**  
+  - Cleans and transposes data  
+  - Converts data to numerical values  
+  - Aggregates data and calculates column-wise percentage values
+
+- **Metadata Integration:**  
+  Merges metadata with the cleaned microbiome data seamlessly.
+
+- **Visualization:**  
+  Generates publication-ready visualizations based on your data and specified taxonomic levels.
+
+## Library Functions
+
+pymbX includes the following functions:
+
+- **`ezclean`**:  
+  Handles the processing of microbiome and metadata files, performing robust data cleaning, transposition, aggregation, and merging operations.
+
+- **`ezviz`**:  
+  Generates publication-ready visualizations using the output from `ezclean`. This function creates dynamic plots based on taxonomic levels and user-defined parameters.
+
+- **`ezstat`**:  
+  *(Upcoming Function)* Designed to perform statistical analysis on 16S rRNA outputs. Stay tuned for updates!
+
+## Installation
+
+You can install **pymbX** using pip:
+
+```bash
+pip install pymbX

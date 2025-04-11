@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pymbX/__init__.py
+pymbX/pymbX.py
+pymbX.egg-info/PKG-INFO
+pymbX.egg-info/SOURCES.txt
+pymbX.egg-info/dependency_links.txt
+pymbX.egg-info/requires.txt
+pymbX.egg-info/top_level.txt
